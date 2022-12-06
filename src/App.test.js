@@ -6,3 +6,6 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+test('test to fail', () => {
+  expect(true).toBe(false)
+})
